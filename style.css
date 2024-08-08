@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.Left-section img{
+    
+    height: 136px;
+}
+.Left-section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 7px;
+    font-size: 22px;
+    font-weight: 2;
+}
+
+
+
+
+
+
+.Right-section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 370px;
+    background-color: #ffffff;
+    box-shadow:-10px -10px 15px rgba(0,0,0,0.1),
+    10px 10px 15px rgba(0,0,0, 0.1);
+    border-radius: 9px;
+}
+.login p{
+    margin-bottom: 20px;
+    
+}
+.create{
+    padding: 20px 60px;
+    background-color: #42b72a;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+span{
+    margin-top: 20px;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+input{
+    width: 380px;
+    height: 50px;
+    margin: 8px 0px;
+    outline: royalblue;
+    padding: 0px 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    background-color:royalblue ;
+    color: white;
+}
